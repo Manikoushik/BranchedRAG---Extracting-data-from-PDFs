@@ -13,16 +13,16 @@ This project is a significant upgrade over simple RAG.Each user query is classif
   Easy category debugging and normalization
 
 # 📚 LLM Choice: Why Gemini Over Flan-T5?
-What I Used: Gemini 2.5 Pro via Google AI Studio API
+**What I Used:** Gemini 2.5 Pro via Google AI Studio API
 
-Why Not Flan-T5?
+**Why Not Flan-T5?**
   
   I initially tried Google Flan-T5 for summarization and QA, but 
   
   Flan struggled with long prompts: It often produced very short, generic, or copy-paste answers, even when given rich context. 
   Complex, multi-part questions or large context windows often resulted in incomplete or repetitive outputs.
 
-Why Gemini?
+**Why Gemini?**
 
   Gemini 2.5 Pro delivered much richer, multi-paragraph, context-aware answers.
   It handled long prompts and nuanced questions far better, supporting a truly production-grade RAG experience.
