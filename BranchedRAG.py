@@ -166,7 +166,6 @@ def summarize_chunks(chunks, user_query, max_input_length = 6000):
   summary = llmmodel.generate_content(prompt)
   return summary.text
 
-#  ------- Checkpoint-5 ------- 
 
 def main():
   
