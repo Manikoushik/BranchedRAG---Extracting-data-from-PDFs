@@ -31,7 +31,7 @@ def classify_query(query, branches):
   result = classifier(query,branches)
   return result['labels'][0],result['scores'][0]
 
-#Uploading the data and creating the chunks for the data
+#Uploading the data and splitting it into chunks
 
 loader = DirectoryLoader("data/", glob="*.pdf", loader_cls = PyPDFLoader)
 documents = loader.load()
